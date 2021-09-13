@@ -118,7 +118,7 @@ namespace WindowsForms
 
         public void SetTimer()
         {
-            MainTimer.Interval = 2;
+            MainTimer.Interval = 20;
             MainTimer.Tick += new EventHandler(Update);
         }
 
